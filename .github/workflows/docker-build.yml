@@ -6,7 +6,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Debug Secret Presence
+      - name: Debug Secret Presence 
         run: |
           echo "DOCKERHUB_USERNAME=${{ secrets.DOCKERHUB_USERNAME }}"
           echo "DOCKERHUB_TOKEN=${{ secrets.DOCKERHUB_TOKEN }}"
